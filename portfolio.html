@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
 </head>
-<body class="bg-secondary">
+<body>
   <header>
-  <nav class="navbar navbar-expand-md navbar navbar-dark bg-dark">
-    <a class="navbar-brand  bm-2 ntext-white" href="index.html"><h1>Aman Thakali</h1></a>
-    <div class="navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav nav">
-        <a class="nav-item nav-link" href="index.html">About </a>
-        <a class="nav-item nav-link" href="contact.html">Contacts</a>
-        <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-      </div>
-    </div>
-  </nav>
-  
-</header><!--  End of Navigation Bar Section -->
-
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html">
+          <h1 id="heading" class="display-4">Aman Thakali <span id="retreats-heading"></span></h1>
+        </a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav nav">
+            <a class="nav-item nav-link display-6" id="home" href="index.html">Home</a>
+            <a class="nav-item nav-link display-6" id="location" href="contact.html">Contact</a>
+            <a class="nav-item nav-link display-6" id="retreats" href="portfolio.html">Portfolio</a>
+            
+        </div>
+      </div> 
+    </nav>
+  </header> 
               <section class="bg-secondary">
                   <div class="container">
                     <div class="row">
@@ -41,7 +48,7 @@
 
               <div class="card-deck mb-4">
                     <div class="card p-2" >
-                      <img src="./assets/images/image1.jpg" class="card-img-top"  alt="...">
+                      <img src="./assets/images/physicgame.JPG" class="card-img-top"  alt="...">
                       <div class="card-body">
                         <h5 class="card-title bg-success p-2 text-center" href="https://amanthakali.github.io/Psychic-Game/">Psychic-Game</h5>
                        
@@ -49,13 +56,13 @@
                     
                     </div>
                     <div class="card p-2">
-                      <img src="./assets/images/image2.jpg" class="card-img-top" href="https://somatthakali.github.io/Project_1/templates/index.html" alt="...">
+                      <img src="./assets/images/bluellama.jpg" class="card-img-top" href="https://somatthakali.github.io/Project_1/templates/index.html" alt="...">
                       <div class="card-body">
                         <h5 class="card-title bg-success p-2 text-center">Llama Retreats</h5>
                       </div>
                     </div>
                     <div class="card p-2">
-                      <img src="./assets/images/image3.jpg" href=" https://amanthakali.github.io/GifTastic/index.html" class="card-img-top"  alt="...">
+                      <img src="./assets/images/image3.jpg" href="https://amanthakali.github.io/GifTastic/index.html" class="card-img-top"  alt="...">
                       <div class="card-body">
                         <h5 class="card-title bg-success p-2 text-center" >Gif Tastic</h5>
                       </div>
@@ -76,9 +83,10 @@
             </div> 
             </div>
                 </section>
-                  <div class="card-footer text-center bg-dark fixed-bottom">
-                    copyright©
-                  </div>
+                  <!-- footer -->
+<div class="card-footer text-black text-center">
+  <p id="footer-text">© 2019 Aman Thakali </p>    
+</div> 
                 
               
 
